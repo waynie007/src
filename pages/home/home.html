@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <map [center]="center" [zoom]="zoom">
+  </map>
+  <div class="location-address">
+    <p>{{address}}</p>
+    <h4>{{state}}</h4>
+  </div>
+</ion-content>
